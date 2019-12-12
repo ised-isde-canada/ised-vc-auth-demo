@@ -1,7 +1,7 @@
 var keycloak = Keycloak({
-  url: "https://sso-dev.pathfinder.gov.bc.ca/auth",
-  realm: "vlv1c2en",
-  clientId: "law-society-demo"
+  url: "https://sso-dev.ised-isde.canada.ca/auth",
+  realm: "vc-authn",
+  clientId: "idm-vc-demo"
 });
 keycloak
   .init({ onLoad: "login-required" })
@@ -20,3 +20,5 @@ keycloak
 function logout() {
   keycloak.logout();
 }
+
+
