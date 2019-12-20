@@ -22,6 +22,8 @@ function logout() {
 }
 */
 
+// just going to orig code
+
 var keycloak = Keycloak({
     url: "https://sso-dev.pathfinder.gov.bc.ca/auth",
     realm: "vlv1c2en",
